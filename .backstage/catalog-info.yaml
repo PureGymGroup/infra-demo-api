@@ -14,7 +14,20 @@ kind: API
 metadata:
   name: infra-demo-api
 spec:
-  type: rest
+  type: openapi
   lifecycle: experimental
   owner: IaT
   system: infrastructure-demo
+  defintion: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Test API
+      license:
+        name: MIT
+    servers:
+      - url: http://demo.pureiac.com/v1
+    paths:
+      /test:
+        get:
+          summary: List all demo tests
