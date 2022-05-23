@@ -18,7 +18,7 @@ spec:
   lifecycle: experimental
   owner: IaT
   system: infrastructure-demo
-  defintion: |
+  definition: |
     openapi: "3.0.0"
     info:
       version: 1.0.0
