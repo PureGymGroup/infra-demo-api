@@ -3,7 +3,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: Infrastruct Demo
+  name: infrastructure-demo
 spec:
   owner: IaT
 
@@ -12,9 +12,9 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: Infra Demo API
+  name: infra-demo-api
 spec:
   type: rest
   lifecycle: experimental
   owner: IaT
-  system: Infrastruct Demo;
+  system: infrastructure-demo
