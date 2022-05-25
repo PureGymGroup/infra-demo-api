@@ -17,7 +17,7 @@
 | <a name="provider_time"></a> [time](#provider\_time) | n/a |
 
 ## Modules
-Test module
+
 No modules.
 
 ## Resources
