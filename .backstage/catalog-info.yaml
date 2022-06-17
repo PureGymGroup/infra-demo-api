@@ -13,6 +13,10 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: infra-demo-api
+  links:
+    - url: https://demo.pureia.com/api/v1
+      title: My Dashboard
+      icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:/docs
 spec:
@@ -28,7 +32,7 @@ spec:
       license:
         name: MIT
     servers:
-      - url: http://demo.pureiac.com/v1
+      - url: http://demo.pureiac.com/api/v1
     paths:
       /test:
         get:
