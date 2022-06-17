@@ -14,8 +14,8 @@ kind: API
 metadata:
   name: infra-demo-api
   links:
-    - url: https://demo.pureia.com/api/v1
-      title: My Dashboard
+    - url: https://demo.pureiac.com/api/v1
+      title: Root API
       icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:/docs
