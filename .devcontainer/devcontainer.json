@@ -1,4 +1,7 @@
 {
   "name": "NodeJS 16-bullseye",
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16-bullseye"
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16-bullseye",
+  "mounts": [ 
+    "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"
+  ]
 }
