@@ -5,7 +5,7 @@ kind: System
 metadata:
   name: infrastructure-demo
 spec:
-  owner: IaT
+  owner: developers_-_platform_team
 
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
@@ -16,7 +16,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: IaT
+  owner: developers_-_platform_team
   system: infrastructure-demo
   definition: |
     openapi: "3.0.0"
