@@ -3,6 +3,8 @@ site_description: API provider for the infrastructure teams demo projects
 repo_url: https://github.com/PureGymGroup/infra-demo-api
 edit_uri: edit/main/docs
 nav:
-  - Home: index.md
+  - Home: index.md 
+  - Additional: README.md
+  - Terraform: terraform.md
 plugins:
   - techdocs-core
