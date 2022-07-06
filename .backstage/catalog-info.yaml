@@ -1,14 +1,5 @@
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: infrastructure-demo
-spec:
-  owner: developers_-_platform_team
 
----
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -37,3 +28,5 @@ spec:
       /test:
         get:
           summary: List all demo tests
+
+---
