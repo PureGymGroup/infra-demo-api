@@ -30,3 +30,18 @@ spec:
           summary: List all demo tests
 
 ---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Example-ADR
+  description: An example ADR
+  annotations:
+    backstage.io/adr-location: ./adrs
+spec:
+  type: adr
+  owner: production_support_-_sre_team
+  lifecycle: production
+  system: backstage
+
+---
