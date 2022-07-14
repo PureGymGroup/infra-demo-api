@@ -10,8 +10,6 @@ metadata:
       icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:/docs
-    dev.azure.com/project: Puregym
-    dev.azure.com/build-definition: Infrastructure and tooling team
 spec:
   type: openapi
   lifecycle: experimental
@@ -42,6 +40,28 @@ metadata:
     backstage.io/adr-location: ./adrs
 spec:
   type: adr
+  owner: production_support_-_sre_team
+  lifecycle: production
+  system: backstage
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: internal-website
+  description: The backstage frontend interface
+  annotations:
+    dev.azure.com/project: Puregym
+    dev.azure.com/build-definition: Infrastructure and tooling team
+    backstage.io/techdocs-ref: dir:/docs
+  links:
+    - title: Backstage Prod
+      url: https://backstage.puregym.com
+    - title: Backstage Staging
+      url: https://backstage.puregymuk.dev
+spec:
+  type: website
   owner: production_support_-_sre_team
   lifecycle: production
   system: backstage
