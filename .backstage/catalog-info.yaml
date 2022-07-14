@@ -52,8 +52,8 @@ metadata:
   name: internal-website
   description: The backstage frontend interface
   annotations:
-    dev.azure.com/project: Puregym
-    dev.azure.com/build-definition: Infrastructure and tooling team
+    dev.azure.com/project: 'Infrastructure and tooling team'
+    dev.azure.com/build-definition: `PureGymGroup.tool-backstage'
     backstage.io/techdocs-ref: dir:/docs
   links:
     - title: Backstage Prod
