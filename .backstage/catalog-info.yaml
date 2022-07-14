@@ -53,7 +53,7 @@ metadata:
   description: The backstage frontend interface
   annotations:
     dev.azure.com/project: 'Infrastructure and tooling team'
-    dev.azure.com/build-definition: `PureGymGroup.tool-backstage'
+    dev.azure.com/build-definition: 'PureGymGroup.tool-backstage'
     backstage.io/techdocs-ref: dir:/docs
   links:
     - title: Backstage Prod
